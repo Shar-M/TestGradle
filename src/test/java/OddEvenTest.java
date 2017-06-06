@@ -12,4 +12,9 @@ public class OddEvenTest {
         OddEven oddEven = new OddEven();
         assertEquals("Odd",oddEven.checkIfOddOrEven(5));
     }
+    @Test
+    public void testEven(){
+        OddEven oddEven = new OddEven();
+        assertEquals("Even", oddEven.checkIfOddOrEven(4));
+    }
 }
