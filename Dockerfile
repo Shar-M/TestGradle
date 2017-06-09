@@ -15,6 +15,6 @@ ADD myapp.war $APP_HOME/myapp.war
  
 #USER $USER_NAME
 WORKDIR $APP_HOME
-#RUN bash -c 'myapp-0.5.0.war'
+#RUN bash -c 'myapp-0.war'
  
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","myapp.war"]
