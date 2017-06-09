@@ -6,6 +6,8 @@ import org.springframework.boot.autoconfigure.*;
 import org.springframework.stereotype.*;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Date;
+
 @RestController
 @EnableAutoConfiguration
 public class OddEven {
@@ -15,7 +17,7 @@ public class OddEven {
         if(number%2==0)
             return "Even";
         else
-            return "OdderPodder";
+            return "OdderPodder"+new Date().toString();
     }
 
 //    public static void main(String[] args) {
