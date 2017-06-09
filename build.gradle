@@ -24,6 +24,7 @@ sourceCompatibility = 1.7
 //mainClassName = 'org.tw.gradleTest.OddEven'
 war {
     baseName = 'myapp'
+    version = System.getenv('TRAVIS_BUILD_NUMBER')
 }
 
 //apply plugin: 'spring-boot'
@@ -90,5 +91,6 @@ task cool {
     doFirst {
         println war.archiveName
         println war.archivePath
+        println System.getenv('TRAVIS_BUILD_NUMBER')
     }
 }
