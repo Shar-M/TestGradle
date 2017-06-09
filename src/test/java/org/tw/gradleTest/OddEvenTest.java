@@ -1,4 +1,4 @@
-
+package org.tw.gradleTest;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 /**
  * Created by kowlalis on 6/6/17.
  */
-public class OddEvenTest {
+/*public class OddEvenTest {
     @Test
     public void testOdd(){
         OddEven oddEven = new OddEven();
@@ -18,3 +18,4 @@ public class OddEvenTest {
         assertEquals("Even", oddEven.checkIfOddOrEven(4));
     }
 }
+*/

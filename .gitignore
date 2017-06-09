@@ -1,5 +1,7 @@
 /out
 workspace.xml
-/out
-build
+/.idea
+/build
+.gradle/
+.gradle/3.5/fileContent/annotation-processors.bin
 
