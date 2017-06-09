@@ -15,6 +15,7 @@ buildscript {
 plugins {
     id 'org.springframework.boot' version '1.5.3.RELEASE'
 }
+def dockerImageVersion = System.getenv('TRAVIS_BUILD_NUMBER')
 //group = 'springio'
 apply plugin: 'idea'
 apply plugin: 'java'
@@ -24,7 +25,7 @@ sourceCompatibility = 1.7
 //mainClassName = 'org.tw.gradleTest.OddEven'
 war {
     baseName = 'myapp'
-    version = System.getenv('TRAVIS_BUILD_NUMBER')
+
 }
 
 //apply plugin: 'spring-boot'
