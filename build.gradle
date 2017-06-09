@@ -29,7 +29,6 @@ war {
 
 //apply plugin: 'spring-boot'
 // In this section you declare where to find the dependencies of your project
-
 bootRun {
     addResources = true
 }
