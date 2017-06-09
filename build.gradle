@@ -20,7 +20,7 @@ apply plugin: 'idea'
 apply plugin: 'java'
 apply plugin: 'war'
 apply plugin: 'docker'
-sourceCompatibility = 1.8
+sourceCompatibility = 1.7
 //mainClassName = 'org.tw.gradleTest.OddEven'
 war {
     baseName = 'myapp'
